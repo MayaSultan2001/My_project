@@ -1,0 +1,140 @@
+h1{
+    background-color:rgb(148, 197, 218);
+    text-align: center;
+}
+.divcell{
+    border: 1px solid gray;
+    float: left;
+    height: 75px;
+    width: 75px;
+    float: left;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 7px;
+    margin-left: 28px;
+
+}
+#divBoard{
+    height: 560px;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(82, 148, 177);
+    border-radius: 20px;
+
+}
+#divLoginOrSignUp{
+    margin: auto;
+    width: 340px;
+    height: 430px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(148, 197, 218);
+    margin-top: 100px;
+    border: 1px solid white;
+
+}
+#pButtonLogin{
+    display: flex;
+    margin-top: 80px;
+}
+#pUserName{
+    margin: 50px;
+    margin-top: 70px;
+
+}
+#pPassword{
+    margin: 50px;
+
+}
+#btnLogin{
+    margin-right: 50px;
+    margin-left: 70px;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+
+}
+#btnSingup{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+#btnLogin:hover{
+    background-color: #d7dfe9;
+
+}
+#btnSingup:hover{
+    background-color: #d7dfe9;
+}
+
+.hidden{
+    display: none;
+}
+.shown{
+    display: block;
+}
+#txtUsername{
+    border-radius: 7px;
+    border: 1px solid rgb(218, 218, 218);
+}
+#txtPassword{
+    border-radius: 7px;
+    border: 1px solid rgb(218, 218, 218);
+
+}
+#h2LoginSignupId{
+    text-align: center;
+    background-color:rgb(148, 197, 218);
+}
+#h2LobbyId{
+    text-align: center;
+}
+#divNames{
+    margin: auto;
+}
+#divLobby{
+    margin: auto;
+}
+#pUsersInLobby{
+    text-align: center;
+    margin: auto;
+    width: 70px;
+    height: 35px;
+    background-color: rgb(148, 197, 218);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+#h2DivGame{
+    text-align: center;
+}
+#lblGameId{
+    text-align: center;
+}
+#btnLeaveGame{
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(148, 197, 218);
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#btnLeaveGame:hover{
+    background-color:rgb(178, 206, 218); ;
+}
+#divWin{
+    margin: auto;
+    height: 560px;
+    width: 800px;
+    border: 1px solid gray;
+}
+#h2win{
+    text-align: center;
+    margin-top: 50px;
+}
